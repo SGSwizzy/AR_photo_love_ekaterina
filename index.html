@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f5efe7">
+  <meta name="description" content="Пятнадцать мультвселенных, в которых мы вместе. Живые фотографии для нас двоих.">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Наши мультвселенные</title>
+  <link rel="icon" href="./heart.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three/build/three.module.js","three/addons/":"./vendor/three/examples/jsm/"}}</script>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <main id="home">
+    <header class="masthead"><a class="wordmark" href="./" aria-label="На главную">мы <span>×</span> 15 вселенных</a><a class="quiet-link" href="#collection">Наши фото <span aria-hidden="true">↗</span></a></header>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy"><span class="eyebrow">ДЛЯ НАС ДВОИХ</span><h1 id="hero-title">В любой вселенной<br><em>мы — вместе.</em></h1><p class="intro">У каждой фотографии есть продолжение.<br>Наведи на неё камеру — и она оживёт.</p>
+        <button id="start-camera" class="button primary" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h4l2-3h4l2 3h4v13H4z"/><circle cx="12" cy="13" r="4"/></svg>Оживить фотографию</button>
+        <p class="camera-note">Разреши доступ к камере. Наведи её на лицевую сторону напечатанного фото.</p>
+        <button id="open-film" class="text-button" type="button"><span aria-hidden="true">▷</span> Смотреть весь ролик с музыкой <span class="duration">0:51</span></button>
+      </div>
+      <div class="hero-art" aria-hidden="true"><div class="polaroid back-card"><img src="./assets/thumbs/12.jpg" alt=""><span>и немного магии</span></div><div class="polaroid front-card"><img src="./assets/photos/02.jpg" alt=""><span>там, где мы вдвоём <i>♡</i></span></div><span class="handwritten">одна история.<br>пятнадцать миров.</span></div>
+    </section>
+    <section id="collection" class="collection" aria-labelledby="collection-title"><div class="section-heading"><div><span class="eyebrow">НАША КОЛЛЕКЦИЯ</span><h2 id="collection-title">Выбери свою вселенную</h2></div><p>Фото можно оживить камерой<br>или открыть по нажатию.</p></div><div id="photo-grid" class="photo-grid" aria-busy="true"></div></section>
+    <footer><span>Во всех историях — мы.</span><a href="./assets/print-originals.zip" download>Фотографии для печати <span aria-hidden="true">↓</span></a></footer>
+  </main>
+  <section id="camera-view" class="camera-view" aria-label="Камера живых фотографий" hidden>
+    <div id="ar-container"></div>
+    <div class="camera-top"><button id="close-camera" class="round-control" type="button" aria-label="Закрыть камеру">×</button><span class="camera-brand">Наши мультвселенные</span><button id="camera-help" class="round-control" type="button" aria-label="Как навести камеру">?</button></div>
+    <div id="scan-frame" class="scan-frame" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+    <div class="camera-bottom"><div id="scan-progress" class="spinner" aria-hidden="true"></div><p id="camera-status" role="status" aria-live="polite">Готовим камеру…</p><p id="camera-hint">Помести фотографию целиком в кадр. Держи телефон спокойно.</p><button id="replay" class="button light" type="button" hidden>Ещё раз</button></div>
+    <video id="ar-video" playsinline webkit-playsinline muted preload="none" class="texture-video"></video>
+  </section>
+  <dialog id="video-dialog" aria-labelledby="video-title"><button id="close-dialog" class="dialog-close" type="button" aria-label="Закрыть видео">×</button><div class="dialog-content"><span class="eyebrow">НАША ИСТОРИЯ</span><h2 id="video-title">Наши мультвселенные</h2><video id="player" controls playsinline preload="none"></video><a id="download-clip" class="quiet-link" download>Скачать видео ↓</a></div></dialog>
+  <div id="notice" class="notice" role="status" hidden></div>
+</body>
+</html>

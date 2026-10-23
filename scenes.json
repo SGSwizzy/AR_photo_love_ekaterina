@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Рик и Морти",
+    "image": "assets/photos/01.jpg",
+    "thumbnail": "assets/thumbs/01.jpg",
+    "video": "assets/clips/01.mp4",
+    "width": 941,
+    "height": 1672
+  },
+  {
+    "id": 2,
+    "name": "Рапунцель",
+    "image": "assets/photos/02.jpg",
+    "thumbnail": "assets/thumbs/02.jpg",
+    "video": "assets/clips/02.mp4",
+    "width": 941,
+    "height": 1672
+  },
+  {
+    "id": 3,
+    "name": "Шрек",
+    "image": "assets/photos/03.jpg",
+    "thumbnail": "assets/thumbs/03.jpg",
+    "video": "assets/clips/03.mp4",
+    "width": 941,
+    "height": 1672
+  },
+  {
+    "id": 4,
+    "name": "Зверополис",
+    "image": "assets/photos/04.jpg",
+    "thumbnail": "assets/thumbs/04.jpg",
+    "video": "assets/clips/04.mp4",
+    "width": 941,
+    "height": 1672
+  },
+  {
+    "id": 5,
+    "name": "Элементарно",
+    "image": "assets/photos/05.jpg",
+    "thumbnail": "assets/thumbs/05.jpg",
+    "video": "assets/clips/05.mp4",
+    "width": 941,
+    "height": 1672
+  },
+  {
+    "id": 6,
+    "name": "Скуби-Ду",
+    "image": "assets/photos/06.jpg",
+    "thumbnail": "assets/thumbs/06.jpg",
+    "video": "assets/clips/06.mp4",
+    "width": 941,
+    "height": 1672
+  },
+  {
+    "id": 7,
+    "name": "Мой сосед Тоторо",
+    "image": "assets/photos/07.jpg",
+    "thumbnail": "assets/thumbs/07.jpg",
+    "video": "assets/clips/07.mp4",
+    "width": 941,
+    "height": 1672
+  },
+  {
+    "id": 8,
+    "name": "Анастасия",
+    "image": "assets/photos/08.jpg",
+    "thumbnail": "assets/thumbs/08.jpg",
+    "video": "assets/clips/08.mp4",
+    "width": 941,
+    "height": 1672
+  },
+  {
+    "id": 9,
+    "name": "Гравити Фолз",
+    "image": "assets/photos/09.jpg",
+    "thumbnail": "assets/thumbs/09.jpg",
+    "video": "assets/clips/09.mp4",
+    "width": 941,
+    "height": 1672
+  },
+  {
+    "id": 10,
+    "name": "Ходячий замок",
+    "image": "assets/photos/10.jpg",
+    "thumbnail": "assets/thumbs/10.jpg",
+    "video": "assets/clips/10.mp4",
+    "width": 941,
+    "height": 1672
+  },
+  {
+    "id": 11,
+    "name": "Красавица и Чудовище",
+    "image": "assets/photos/11.jpg",
+    "thumbnail": "assets/thumbs/11.jpg",
+    "video": "assets/clips/11.mp4",
+    "width": 941,
+    "height": 1672
+  },
+  {
+    "id": 12,
+    "name": "Труп невесты",
+    "image": "assets/photos/12.jpg",
+    "thumbnail": "assets/thumbs/12.jpg",
+    "video": "assets/clips/12.mp4",
+    "width": 941,
+    "height": 1672
+  },
+  {
+    "id": 13,
+    "name": "Атлантида",
+    "image": "assets/photos/13.jpg",
+    "thumbnail": "assets/thumbs/13.jpg",
+    "video": "assets/clips/13.mp4",
+    "width": 941,
+    "height": 1672
+  },
+  {
+    "id": 14,
+    "name": "Планета сокровищ",
+    "image": "assets/photos/14.jpg",
+    "thumbnail": "assets/thumbs/14.jpg",
+    "video": "assets/clips/14.mp4",
+    "width": 941,
+    "height": 1672
+  },
+  {
+    "id": 15,
+    "name": "Время приключений",
+    "image": "assets/photos/15.jpg",
+    "thumbnail": "assets/thumbs/15.jpg",
+    "video": "assets/clips/15.mp4",
+    "width": 941,
+    "height": 1672
+  }
+]
